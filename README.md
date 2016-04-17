@@ -13,28 +13,51 @@ A solution for that particular problem (in case you haven't worked it out in you
 
 #The Missionaries and Cannibals Problem
 0:3M 3C<> ~~~~~~~~~~~~ __0M 0C
+
 1M 1C ->
+
 1:2M 2C__ ~~~~~~~~~~~~ <>1M 1C
+
 <- 1M 0C
+
 2:3M 2C<> ~~~~~~~~~~~~ __0M 1C
+
 0M 2C ->
+
 3:3M 0C__ ~~~~~~~~~~~~ <>0M 3C
+
 <- 0M 1C
+
 4:3M 1C<> ~~~~~~~~~~~~ __0M 2C
+
 2M 0C ->
+
 5:1M 1C__ ~~~~~~~~~~~~ <>2M 2C
+
 <- 1M 1C
+
 6:2M 2C<> ~~~~~~~~~~~~ __1M 1C
+
 2M 0C ->
+
 7:0M 2C__ ~~~~~~~~~~~~ <>3M 1C
+
 <- 0M 1C
+
 8:0M 3C<> ~~~~~~~~~~~~ __3M 0C
+
 0M 2C ->
+
 9:0M 1C__ ~~~~~~~~~~~~ <>3M 2C
+
 <- 0M 1C
+
 10:0M 2C<> ~~~~~~~~~~~~ __3M 1C
+
 0M 2C ->
+
 11:0M 0C__ ~~~~~~~~~~~~ <>3M 3C
+
 Safely crossed the river with 11 crossings.
 
 #The Generalized Missionaries and Cannibals Problem
@@ -51,9 +74,13 @@ Solutions are not necessarily unique, but your solution must be a minimum crossi
 #Test Cases:
 
 3 3 3 Solution 5 moves
+
 20 20 4 Solution 37 moves
+
 4 4 2 No solution 
+
 5 5 3 Solution 11 moves
+
 2 3 2 No Solution
 
 
